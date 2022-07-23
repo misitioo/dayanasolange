@@ -1,7 +1,10 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: sans-serif;  
+}
+html{
+    scroll-behavior: smooth;
 }
 
 h4{
@@ -13,7 +16,8 @@ h4{
 }
 
 .row{
-    height: 300px;
+    width: 100%;
+    height: 350px;
 }
 .nav1{
     background: black;
@@ -52,4 +56,124 @@ nav>li>a{
 }
 .cerrar{
     border: none;
+}
+.card1>p{
+    font-size: 15px;
+    padding: 2px;
+    position: relative;
+    align-content: center;
+}
+.card1,.card2{
+    background: linear-gradient(rgba(25, 192, 19, 0.774),rgba(223, 223, 226, 0.308));
+}
+.card2>p{
+    font-size: 15px;
+    padding: 2px;
+    position: relative;
+    align-content: center;
+}
+.card2>img,.card1>img{
+    width: 170px;
+}
+.card2>.movil-img,.card1>.movil-img{
+    width: 80px;
+}
+
+section{
+    top: 200px;
+    margin: 30px;
+    position: relative;
+}
+section>.row>div{
+   margin-top: 10px;
+   height: 260px;
+}
+.cursos{
+    text-align: center;
+    background: linear-gradient(rgb(211, 82, 23),rgb(247, 245, 245));
+}
+
+.cursos>img{
+    width: 80px; 
+    float: left;
+}
+.cursos>.row>.row>li>img{
+    width: 65px;
+    margin-top: 20px;
+}
+
+.cursos>.row>li{
+    font-size: 15px;
+    color: #fff;
+    list-style-type: none;
+    border-right: 1px solid black;
+    height: 30px;
+    
+}
+
+.currv,.currv2{
+    text-align: center;
+}
+
+
+#proyect{
+    position: relative;
+    top: 600px;
+    text-align: center;
+    font-size: 25px;
+}
+#proyect>.row>.gif{
+    border: 1px solid rgb(235, 231, 231);
+    box-shadow: 2px 2px 5px 1px rgba(207, 206, 206, 0.39);
+    margin: 20px;
+    width: 450px;
+    height:350px;
+}
+#proyect>.row>.gif>li{
+    margin-left: 80px;
+    list-style-type: none;
+    width: 250px;
+    height: 50px;
+    margin-top: 30px;
+    background: rgba(46, 86, 124, 0.637);
+}
+
+#proyect>.row>.gif>li>a{
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+}
+
+footer{
+    top: 1950px;
+    position:absolute;
+    width: 100%;
+    height: 20vh;
+    background: black;
+    
+}
+.up{
+    position:fixed;
+    z-index:2000;
+    width:50px;
+    display: flex;
+    bottom: 25px;
+    right: 25px;
+    opacity: 0.6;
+    background: rgb(255, 255, 255);
+    border-radius: 51%;
+}
+
+#pyme>div>img{
+    width: 150px;
+    height: 180px;
+}
+#pyme>h5{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h2{
+    padding: 25px ; 
+    text-align:center;
 }

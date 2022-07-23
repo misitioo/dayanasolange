@@ -12,8 +12,8 @@
     <title>Dayana S.</title>
 </head>
 <body>
-
-    <header>
+<a href="#header"><img class="up" src="/img/flecha-hacia-arriba.png" alt=""></a>
+    <header id="header">
         <h4>dayana J.</h4>
     </header>
 <div class="container-fluid">
@@ -24,47 +24,106 @@
     </button>
     <!-- pc -->
     <nav class="d-none d-md-block nav1 row">
-        <li class="col-3"><a href="#">Inicio</a></li>
-        <li class="col-3" ><a href="#">Perfil</a></li>
-        <li class="col-3"><a href="#">Proyecto</a></li>
-        <li class="col-3"><a href="#">MisPyme</a></li>
+        <li class="col-3"><a href="index.html">Inicio</a></li>
+        <li class="col-3" ><a href="#section-1">Perfil</a></li>
+        <li class="col-3"><a href="#proyect">Proyecto</a></li>
+        <li class="col-3"><a href="#pyme">MisPyme</a></li>
     </nav>
     <!-- movil -->
     <nav style="display: none;" class="d-md-none nav row">
         <button class="d-md-none cerrar" type="submit" onclick="cerrar();" value="">
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
-                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-              </svg>
+            <img style="width:30px;" src="/img/flecha-hacia-arriba.png" alt="">
         </button>
-        <li class=""><a href="#">inicio</a></li>
-        <li class="" ><a href="#">Perfil</a></li>
-        <li class=""><a href="#">Proyectos</a></li>
-        <li class=""><a href="#">MisPyme</a></li>
+        <li class=""><a href="index.html">inicio</a></li>
+        <li class="" ><a href="#section-1">Perfil</a></li>
+        <li class=""><a href="#proyect">Proyectos</a></li>
+        <li class=""><a href="#pyme">MisPyme</a></li>
     </nav>
 </div>
-<div class="container">
+<div id="pefil" class="container">
     <div class=" row">
-        <div class="col-6 bg-warning card1">bb</div>
-        <div class="col-6 bg-danger card2">bb</div>
-    </div>   <br>
-    <div class=" row">
-        <div class="col-3 bg-primary ">aa</div>
-        <div class="col-3 bg-info ">bb</div>
-        <div class="col-3 bg-danger ">bb</div>
-        <div class="col-3 bg-black ">bb</div>
-    </div>   
+        <h2>Portafolio</h2>
+        <div class="col-6  card1">
+            <h2>Ingeniera en Recursos Humanos</h2>
+            <h6>Tec. medio en administración</h6>
+            <p>Estoy cursando ultimo año en Ing. en RR.HH, en 2016 me titule
+                en como tecnico medio en administración, por razones de la vida 
+                no he podido ejercer ya que no encuentro una oportunidad que me 
+                puedan ofrecer. Me gusta las relaciones interpersonales y tambien el 
+                analisis de datos
+            </p>
+            <img class="d-none d-md-block " src="/img/elegir.png" alt="">
+        </div>
+        <div class="col-6  card2">
+            <h2>Aprendiz en Desarrollo Web</h2>
+            <h6>Autodidacta</h6>
+            <p>hace casi 2 años estoy aprendiendo por cuenta
+                propia el desarrollo web,
+                actualmente estoy Tomando cursos en linea ya que me gusta
+                el diseño web, No tengo experiencia laboral</p>
+                
+            <img class="d-none d-md-block " src="/img/codigo.png" alt="">
+            <img class="d-block d-md-none movil-img" src="/img/codigo.png" alt="">
+        </div>
+    </div>  
 </div>
+<section id="section-1">
+    <h2>Perfil</h2>
+    <div class="row">
+        <div class="col-12 col-md-6 bg-primary  currv">
+            <a href="https://www.linkedin.com/in/dayanajaramillo24/" target="_blank"><img style="width: 150px; margin-top: 25px;" src="/img/cv.png " alt=""></a>
+        </div>
+        <div class="col-12 col-md-6 bg-info currv2">
+            <a href="https://github.com/misitioo?tab=repositories" target="_blank"><img style="width: 150px; margin-top: 25px;" src="/img/signo-de-github.png " alt=""></a>
+        </div>
 
-  
+        <div class="col-12  cursos">
+            <img src="/img/aprender-en-linea.png" alt="">
+            <h2 style="text-align: center; margin-top:15px; color: rgb(185, 214, 185);">Cursos</h2>
+            <div class="row">
+                <li class="col-4">Python en g-talent</li>
+                <li class="col-4">Excel en Sence</li>
+                <li class="col-4">cajero bancario en aula bancaria</li>
+                <div class="row">
+                    <li style="list-style-type: none;" class="col-4 "><img src="/img/piton.png" alt=""></li>
+                    <li style="list-style-type: none;" class="col-4 "><img src="/img/sobresalir.png" alt=""></li>
+                    <li style="list-style-type: none;" class="col-4 "><img src="/img/cajero.png" alt=""></li>
+                </div>
+                
+            </div>
+        </div>
+    </div>  
+</section>
+
+
+<div id="proyect">
+    <div class="justify-content-center row">
+        <div class="d-none d-md-block" style="background:rgba(0, 0, 0, 0.226); height: 100px; width: 100%; position: absolute; top: 0;" class="linea"></div>
+        <h2 class="col-12"> Proyectos Basicos</h2>
+        <div class="col-12 gif">
+            <img style="width:400px" src="/img/servlim.gif" alt="">
+            edicion en curso
+            <li><a href="http://servicioslimpieza.infinityfreeapp.com/" target="_blank" rel="noopener noreferrer">Ver</a></li>
+        </div>
+        <div class="col-12 gif">
+            <img style="width:400px" src="/img/servlim.gif" alt="">
+            edicion en curso
+            <li><a href="http://servicioslimpieza.infinityfreeapp.com/" target="_blank" rel="noopener noreferrer">Ver</a></li>
+        </div>
+
+        <div id="pyme" class="row">
+            <h2>Mypyme</h2>
+            <h5 class="col-6 col-md-2">Venta de Calzas</h5>
+            <div class="col-6 col-md-2"><img src="/img/calzas.jpg" alt=""></div>
+            <h5 class="col-6 col-md-2">Venta de Vestidos</h5>
+            <div class="col-6 col-md-2"><img src="/img/vest.jpg" alt=""></div>
+            <h5 class="col-6 col-md-2">Venta de marcos</h5>
+            <div class="col-6 col-md-2"><img src="/img/marcos.jpg" alt=""></div>
+        </div>
+    </div>
+</div>
     
-        
-        
-    </section>
 
-    <section id="section-2">
-
-    </section>
 
 
 
